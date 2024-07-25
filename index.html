@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Own Adventure!</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="start" class="page">
+        <h1>At the Cave Entrance</h1>
+        <img src="https://media.istockphoto.com/id/641236218/photo/secret-cave.jpg?s=612x612&w=0&k=20&c=DmpLpPXqS4Lj3eSlL4pJdW0EkhB7-SvE1CZN7jg5vjE=" 
+            alt="Cave Entrance"/>
+        <p>After a long hike, you are at an entrance of a cave. Do you choose to go inside or turn around and leave?</p>
+        <button><a href="#choice1">Go inside!</a></button>
+        <button><a href="#choice2">Turn around and leave.</a></button>
+      </div>
+      
+      <div id="choice1" class="page">
+        <h1>Inside the Cave</h1>
+        <img src="https://t3.ftcdn.net/jpg/03/24/29/92/360_F_324299203_Q0lR3fdogX3gKiisZIudXHKaSF0egZrw.jpg"
+         alt="Inside the Cave"/>
+         <p>You are astonished by the size of the cave. After venturing further down you see two paths.</p>
+         <button><a href="#choice3">Go Left! Right is too obvious.</a></button>
+         <button><a href="#choice4">Go Right! Left can't be the right way.</a></button>
+      </div>
+
+      <div id="choice2" class="page">
+        <h1>Back on the hiking trail.</h1>
+        <img src="https://as2.ftcdn.net/v2/jpg/02/87/47/63/1000_F_287476304_lKWwHVzr9fP4zC6bpBTESxJRqWnKtewV.jpg"
+         alt="Sunset hiking trail"/>
+         <p>You returned from the cave entrance and it is getting dark. It's time to go home.</p>
+         <button><a href="#choice5">Homebound!</a></button>
+      </div>
+
+      <div id="choice3" class="page">
+        <h1>On the left tunnel.</h1>
+        <img src="https://img.freepik.com/premium-photo/old-mine-tunnel-cave-with-lights-rocks-dark-underground-passage-generative-ai-entrance-tunnel-mountain-inside-subterranean-cave-industry-ore-coal-geology-theme_788189-11039.jpg"
+         alt="Mine cave"/>
+         <p>It seems like this is an old mining cave. You collect some ore samples. All of a sudden, you hear a 
+            sound coming from further down.
+         </p>
+         <button><a href="#choice6">Investigate the sound. Maybe someone needs help?</a></button>
+         <button><a href="#choice2">Turn around and go home. You don't want to mess with anything in these caves.</a></button>
+      </div>
+
+      <div id="choice4" class="page">
+        <h1>On the right tunnel.</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4tFSN_7iQQxsiEUM4fTiOicDer1uS7Nr88A&s"
+         alt="Cave with distant light"/>
+         <p>It's really dark but you see a light in the distance. You can barely see your hands in front of you.</p>
+         <button><a href="#choice7">Move towards the light.</a></button>
+         <button><a href="#choice2">Turn around and go home. You don't want to mess with anything in these caves.</a></button>
+      </div>
+
+      <div id="choice5" class="page">
+        <h1>At Home.</h1>
+        <img src="https://pics.craiyon.com/2023-10-18/a445e160740845baac75283983d5d636.webp"
+         alt="House at night"/>
+         <p>You finally are home! You have a nice hot shower, eat dinner, and watch Youtube videos on your phone before sleeping.</p>
+         <button><a href="#start">Restart adventure!</a></button>
+      </div>
+
+      <div id="choice6" class="page">
+        <h1>A room of riches!</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Az1oKZZKZ1crSaMu9ux5nwjrEbf8PVBjwA&s"
+         alt="Treasure chest"/>
+         <p>Congratulations! You come upon a room with treasure in it!</p>
+         <button><a href="#start">Restart adventure!</a></button>
+
+      </div> <div id="choice7" class="page">
+        <h1>Oh No!!!</h1>
+        <img src="https://www.shutterstock.com/shutterstock/videos/1041869179/thumb/6.jpg?ip=x480"
+         alt="Man falling"/>
+         <p>You walked towards the light, but due to the darkness you fell in a hole you didn't see. You break your leg and 
+            await your demise.
+         </p>
+         <button><a href="#start">Restart adventure!</a></button>
+      </div>
+
+</body>

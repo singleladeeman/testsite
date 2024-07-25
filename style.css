@@ -1,0 +1,23 @@
+.page{
+    height: 100vh;
+}
+
+img{
+    width: 500px;
+    height: 400px;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(52, 52, 52);
+    align-items: center;
+}
+
+p{
+    color:rgb(188, 188, 188)
+}
+
+h1{
+    color: rgb(188, 188, 188);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
